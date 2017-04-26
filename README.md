@@ -1,6 +1,6 @@
 # npmdoc-mz
 
-#### api documentation for  [mz (v2.6.0)](https://github.com/normalize/mz#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-mz.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-mz) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-mz.svg)](https://travis-ci.org/npmdoc/node-npmdoc-mz)
+#### basic api documentation for  [mz (v2.6.0)](https://github.com/normalize/mz#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-mz.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-mz) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-mz.svg)](https://travis-ci.org/npmdoc/node-npmdoc-mz)
 
 #### modernize node.js to current ECMAScript standards
 
@@ -100,7 +100,8 @@
         "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot",
         "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter dot"
     },
-    "version": "2.6.0"
+    "version": "2.6.0",
+    "bin": {}
 }
 ```
 
